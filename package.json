@@ -1,0 +1,21 @@
+{
+  "name": "mapgl-url-state",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "module": "./dist/url-state.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@2gis/mapgl": "^1.60.0",
+    "lil-gui": "^0.20.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
