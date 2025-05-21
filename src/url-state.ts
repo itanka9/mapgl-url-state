@@ -117,7 +117,7 @@ export class URLState {
                     .max(config.max ?? 100)
                     .step(config.step ?? 1);
             }
-            controller.onChange((ev) => {
+            controller.onChange((ev: any) => {
                 this.updateURL();
                 if (config.onchange) {
                     config.onchange(ev); 
