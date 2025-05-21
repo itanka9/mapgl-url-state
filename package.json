@@ -5,6 +5,9 @@
   "type": "module",
   "module": "./dist/url-state.js",
   "typings": "./dist/url-state.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "start": "vite",
     "build": "vite build",
