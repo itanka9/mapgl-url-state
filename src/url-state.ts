@@ -185,6 +185,6 @@ export class URLState {
 }
 
 
-export default function (map: Map, config: URLStateConfig) {
+export default function (map: Map, config?: URLStateConfig) {
     return new URLState(map, config);
 }

@@ -5,7 +5,7 @@ load().then((mapgl) => {
     const map = new mapgl.Map('map', {
         center: [55.31878, 25.23584],
         zoom: 13,
-        key: 'type your key here',
+        key: 'Your MapGL JS API key'
     });
 
     new URLState(map, {
