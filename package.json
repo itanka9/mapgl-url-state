@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "main": "index.js",
   "type": "module",
+  "repository": { "url": "https://github.com/itanka9/mapgl-url-state", "type": "github" },
   "module": "./dist/url-state.js",
   "typings": "./dist/url-state.d.ts",
   "files": [

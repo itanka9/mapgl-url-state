@@ -5,14 +5,14 @@ load().then((mapgl) => {
     const map = new mapgl.Map('map', {
         center: [55.31878, 25.23584],
         zoom: 13,
-        key: 'Your MapGL JS API key'
+        key: 'Your MapGL JS API key',
     });
 
     new URLState(map, {
         params: {
             theme: {
                 type: 'string',
-                default: 'Day',
+                default: 'c080bb6a-8134-4993-93a1-5b4d8c36a59b',
                 gui: true,
                 options: {
                     'Day': 'c080bb6a-8134-4993-93a1-5b4d8c36a59b',
